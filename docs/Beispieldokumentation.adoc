@@ -3,7 +3,7 @@ Paul Schumann <email>
 1.0, 01.09.2022
 :toc: 
 :toc-title: Inhaltsverzeichnis
-:source-highlighter: rouge
+
 
 // Platzhalter für weitere Dokumenten-Attribute 
 
@@ -13,6 +13,8 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 == Kennenlernen der Syntax
 
 Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
+
+In diesem Dokument befindet sich <<code>>
 
 === Listen
 
@@ -39,8 +41,10 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |=======
 
 == Quellcode
+:source-highlighter: rouge
+[#code]
 .hello_world.c
-[source, c]
+[source, c, linenums]
 ----
 #include <stdio.h>
 
@@ -51,7 +55,11 @@ int main(int argc, char* argv[])
 }
 ----
 
- 	 	
+=== Bilder
+.VS Code Editor
+image::screen_vsc.png[Screenshot VS Code]
+
+
 
 
 	
