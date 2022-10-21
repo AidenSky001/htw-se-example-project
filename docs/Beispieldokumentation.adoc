@@ -3,6 +3,8 @@ Paul Schumann <email>
 1.0, 01.09.2022
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: rouge
+
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -35,6 +37,19 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |*_bolditalic_* |\*_bolditalic_*|Text mit kombinierter Formatierung
 | **bold**__italic__ | pass:[**bold**__italic__]|Text mit Formatierung innerhalb eines Wortes
 |=======
+
+== Quellcode
+.hello_world.c
+[source, c]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+----
 
  	 	
 
